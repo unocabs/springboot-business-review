@@ -30,6 +30,19 @@ public class BusinessServiceImpl {
         return businessDTOList;
     }
 
+    public BusinessDTO getBusinessById(Integer id) {
+        BusinessEntity businessEntity = businessRepository.findBusinessById(id);
+
+        BusinessDTO businessDTO = BusinessDTO.builder()
+                .id(businessEntity.getId())
+                .businessName(businessEntity.getBusinessName())
+                .address(businessEntity.getAddress())
+                .phone(businessEntity.getPhone())
+                .build();
+
+        return businessDTO;
+    }
+
     public List<BusinessDTO> addBusiness(Business business) {
         businessRepository.save(BusinessEntity.builder()
                         .businessName(business.getBusinessName())

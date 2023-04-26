@@ -20,6 +20,11 @@ public class BusinessController {
         return businessService.getAllBusiness();
     }
 
+    @GetMapping("/{id}")
+    public BusinessDTO getBusinessById(@PathVariable Integer id) {
+        return businessService.getBusinessById(id);
+    }
+
     @PostMapping
     public List<BusinessDTO> addBusiness(@RequestBody Business business) {
         return businessService.addBusiness(business);

@@ -1,8 +1,12 @@
 package com.crescendo.entity;
 
+import com.crescendo.DTO.ReviewDTO;
+import com.crescendo.model.Review;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -24,4 +28,7 @@ public class BusinessEntity {
     @Column(name = "phone")
     private String phone;
 
+/*    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    @JoinColumn(name = "business_id")
+    private List<ReviewDTO> reviews = new ArrayList<>();*/
 }
