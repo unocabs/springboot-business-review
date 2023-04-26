@@ -1,0 +1,15 @@
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/config/WebConfig.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/entity/ReviewEntity.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/model/Business.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/service/IBusinessService.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/repository/ReviewRepository.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/repository/BusinessRepository.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/entity/BusinessEntity.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/controller/rest/BusinessController.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/config/SecurityConfiguration.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/service/IReviewService.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/model/Review.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/service/BusinessServiceImpl.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/Application.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/service/ReviewServiceImpl.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/controller/rest/ReviewController.java
