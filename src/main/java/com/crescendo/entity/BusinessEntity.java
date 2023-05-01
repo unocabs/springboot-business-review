@@ -18,7 +18,7 @@ import java.util.List;
 @Table(name = "business")
 public class BusinessEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Integer id;
     @Column(name = "business_name")
@@ -28,7 +28,7 @@ public class BusinessEntity {
     @Column(name = "phone")
     private String phone;
 
-/*    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
     @JoinColumn(name = "business_id")
-    private List<ReviewDTO> reviews = new ArrayList<>();*/
+    private List<ReviewEntity> reviews = new ArrayList<>();
 }

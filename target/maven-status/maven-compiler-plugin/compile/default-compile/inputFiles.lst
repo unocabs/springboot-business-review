@@ -10,6 +10,8 @@
 /Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/service/IReviewService.java
 /Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/model/Review.java
 /Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/service/BusinessServiceImpl.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/DTO/BusinessDTO.java
 /Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/Application.java
 /Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/service/ReviewServiceImpl.java
+/Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/DTO/ReviewDTO.java
 /Users/Gian/LocalDocuments/Programming Files/Personal Projects/springboot-business-review/src/main/java/com/crescendo/controller/rest/ReviewController.java

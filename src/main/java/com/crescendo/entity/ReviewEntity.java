@@ -15,7 +15,7 @@ import java.util.Date;
 @Table(name = "review")
 public class ReviewEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Integer id;
     @Column(name = "business_id")
